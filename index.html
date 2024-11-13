@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI MemeCoins</title>
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <nav class="navbar" aria-label="Main Navigation">
+            <div class="logo">AI MemeCoins</div>
+            <ul class="menu">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Submenu -->
+    <div class="submenu">
+        <ul>
+            <li><a href="#about">About Us</a></li>
+            <li><a href="#topAIMemeCoins">Top AI MemeCoins</a></li>
+            <li><a href="#feedback">Feedback</a></li>
+            <li><a href="#contact">Contact Us</a></li>
+        </ul>
+    </div>
+
+    <!-- Home Section -->
+    <section id="home" class="section active">
+        <!-- Video Header -->
+        <div class="video-header">
+            <video autoplay muted loop>
+                <source src="viduts.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+            <div class="hero-text">
+                <h1>Welcome to AI MemeCoins</h1>
+                <p>Discover the future of cryptocurrency with AI-driven MemeCoins.</p>
+                <button onclick="scrollToSection('about')">Explore Services</button>
+            </div>
+        </div>
+
+        <!-- About Us -->
+        <section id="about">
+            <h2>About Us</h2>
+            <p>
+                <strong>AI MemeCoins</strong> adalah inovasi terbaru dalam dunia cryptocurrency yang menggabungkan kekuatan kecerdasan buatan (AI) dengan konsep MemeCoins. MemeCoins sendiri adalah mata uang digital yang terinspirasi dari meme internet populer, memberikan sentuhan humor dan komunitas yang kuat.
+            </p>
+            <p>
+                MemeCoins pertama kali dikenal luas melalui token-token seperti <strong>Doge</strong> dan <strong>Shiba Inu</strong>, yang berhasil menciptakan komunitas besar dan mendominasi pasar meme cryptocurrency. Seiring waktu, MemeCoins telah berkembang dari sekadar lelucon menjadi aset digital yang dihargai dan diperdagangkan secara luas.
+            </p>
+            <p>
+                Saat ini, tren inovasi dalam dunia MemeCoins semakin meningkat dengan munculnya AI-driven MemeCoins. Inovasi ini menggabungkan algoritma AI untuk meningkatkan stabilitas, keamanan, dan pertumbuhan nilai MemeCoins, memberikan nilai tambah bagi para investor dan pengguna. AI MemeCoins tidak hanya menawarkan kesenangan dan komunitas yang solid tetapi juga teknologi canggih yang memastikan keberlanjutan dan pertumbuhan jangka panjang.
+            </p>
+        </section>
+
+        <!-- Top AI MemeCoins -->
+        <section id="topAIMemeCoins">
+            <h2>Top AI MemeCoins</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Name</th>
+                        <th>Ticker</th>
+                        <th>All Time High</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>GOATSEUS MAXIMUS</td>
+                        <td>$GOAT</td>
+                        <td>$1 Billion</td>
+                    </tr>
+                    <tr>
+                        <td>Act 1 - The AI Prophecy</td>
+                        <td>$Act1</td>
+                        <td>$600 Millions</td>
+                    </tr>
+                    <tr>
+                        <td>Turbo</td>
+                        <td>Turbo</td>
+                        <td>$500 Millions</td>
+                    </tr>
+                    <tr>
+                        <td>Fartcoin</td>
+                        <td>Fart</td>
+                        <td>$200 Millions</td>
+                    </tr>
+                    <tr>
+                        <td>MemesAI</td>
+                        <td>MemesAI</td>
+                        <td>$150 Millions</td>
+                    </tr>
+                    <tr>
+                        <td>Luna By Virtuals</td>
+                        <td>Virtuals</td>
+                        <td>$80 Millions</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <!-- Feedback -->
+        <section id="feedback">
+            <h2>Feedback</h2>
+            <form>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" title="Enter a valid email address">
+                
+                <label for="message">Feedback:</label>
+                <textarea id="message" name="message" required></textarea>
+                
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+
+        <!-- Contact Us -->
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <p>Email: felixjoshua27@gmail.com</p>
+            <p>Phone: 089614127320</p>
+        </section>
+    </section>
+
+    <!-- Gallery Section -->
+    <section id="gallery" class="section">
+        <h1>TOP AI MEMECOINS</h1>
+        <div class="grid">
+            <div class="gallery-item">
+                <img src="goat.png" alt="GOATSEUS MAXIMUS">
+                <p>goat.png - GOATSEUS MAXIMUS</p>
+            </div>
+            <div class="gallery-item">
+                <img src="act1.png" alt="Act 1 - The AI Prophecy">
+                <p>act1.png - Act 1 - The AI Prophecy</p>
+            </div>
+            <div class="gallery-item">
+                <img src="turbo.png" alt="Turbo">
+                <p>turbo.png - Turbo</p>
+            </div>
+            <div class="gallery-item">
+                <img src="fart.jpg" alt="Fartcoin">
+                <p>fart.jpg - Fartcoin</p>
+            </div>
+            <div class="gallery-item">
+                <img src="memesai.jpg" alt="MemesAI">
+                <p>memesai.jpg - MemesAI</p>
+            </div>
+            <div class="gallery-item">
+                <img src="virtuals.jpg" alt="Luna By Virtuals">
+                <p>virtuals.jpg - Luna By Virtuals</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 AI MemeCoins. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
